@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-test023131
-=======
-test
-
-adfasfasdf
->>>>>>> new
