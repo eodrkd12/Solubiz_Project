@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>test_log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="test_log.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1 class="title">트레이 기록</h1>
+    <!--HTML 테이블 예제-->
+    <table id="log_table">
+        <colgroup>
+            <col width=30%>
+            <col width=20%>
+            <col width=20%>
+            <col width=10%>
+            <col width=10%>
+            <col width=10%>
+        </colgroup>
+        <thead>
+            <tr>
+                <th >시간</th>
+                <th>트레이 번호</th>
+                <th>자재</th>
+                <th>무게</th>
+                <th>온도</th>
+                <th>습도</th>
+            </tr>
+        </thead>
+        <tbody id="log_tbody">
+
+        </tbody>
+        <!--자바 스크립트를 이용한 테이블 ROW 생성 예제 (동적 가능)-->
+        <script>
+            function add_row() {
+                var log_tbody = document.getElementById('log_tbody');
+                var row = log_tbody.insertRow(log_tbody.rows.length);
+                var cells = new Array();
+                for (var i = 0; i < 6; i++) {
+                    cells[i] = row.insertCell(i);
+                    cells[i].innerHTML = Math.floor(Math.random() * 100);
+                }
+            }
+            for(var i=0;i<5;i++){
+                add_row();
+            }
+        </script>
+    </table>
+</body>
+
+</html>
