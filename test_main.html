@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://unpkg.com/vue"></script>
@@ -11,7 +10,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-
 <body>
     <!--클릭을 통한 팝업창 띄우기-->
     <button onclick='popup()'>
@@ -19,12 +17,10 @@
     </button>
     <script>
         function popup() {
-            var popup_x = (window.screen.width / 2) - 400;
-            var popup_y = (window.screen.height / 2) - 200;
-            window.open('test_log.html', 'pop','width=800'+', height=400'+', left='+popup_x+', top='+popup_y);
+            var popup_x = (window.screen.width / 2) - 420;
+            var popup_y = (window.screen.height / 2) - 250;
+            window.open('test_log.html', '', 'width=840' + ', height=500' + ', left=' + popup_x + ', top=' + popup_y);
         }
     </script>
-
 </body>
-
 </html>
