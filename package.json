@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.4"
+  },
+  "scripts": {
+    "test": "1.0",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimsooho/sooho.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimsooho/sooho/issues"
+  },
+  "homepage": "https://github.com/kimsooho/sooho#readme"
+}

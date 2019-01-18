@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+
+    padding: 0;    
+    line-height: 200%;
+    /*border-left: 1px solid red;*/            
+}
+body{
+    margin: 5px;
+}
+li{
+    line-height: 400%;
+}
+header{
+    
+    height: auto;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    
+    margin:5px;
+}
+
+.divSetting{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: table;     
+    height: auto;width: 100%; 
+    margin-bottom: 10px; 
+}
+
+.divSearchContent{ 
+    padding: 10px;
+    margin: 100px;   
+    display: table-cell;
+    vertical-align: middle; 
+    background-color: lightblue;
+    color: black;
+    
+}
+
+.divRegContent{
+    padding: 10px;
+    margin: 100px;   
+    display: table-cell;
+    vertical-align: middle; 
+    background-color: lightblue;
+    color: black;
+}
+.btnHeight{
+    height: 70px;
+}
+nav{
+    background-color:white;
+    margin: 5px;
+}
+nav select{
+    width: 100px;
+    height: 25px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;    
+}
+
+/* Style the tabs */
+.tabs {
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: -2px;
+}
+
+.tabs ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.tabs a {
+    float: left;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: background-color 0.2s;
+    border: 1px solid #ccc;
+    border-right: none;
+    background-color: #f1f1f1;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+
+.tabs a:last-child {
+    border-right: 1px solid #ccc;
+}
+
+/* Change background color of tabs on hover */
+.tabs a:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+
+/* Styling for active tab */
+.tabs a.active {
+    background-color: #fff;
+    color: #484848;
+    border-bottom: 2px solid #fff;            
+    cursor: default;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #e1e1e1;
+    height: 540;                   
+    width: 900;
+}
+
